@@ -1,7 +1,7 @@
 <template>
   <main>
     <h1>Gallery:</h1>
-    <p>This is where gallery should go</p>
+    <p>This is where gallery should go?</p>
     <div>{{ artworks }}</div>
   </main>
 </template>
