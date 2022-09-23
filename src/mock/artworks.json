@@ -1,25 +1,28 @@
 [
   {
+    "id": "1",
     "name": "Tin Can Dad",
     "description": "This is a description of tin can dad",
     "date": "this will be a date",
-    "img": "Presumably this'll be an image",
+    "img": "@/mock/images/portfolio1.jpg",
     "caption": "caption for short description",
     "tags": ["Star wars", "Watercolour", "commission"]
   },
   {
+    "id": "2",
     "name": "Kingfisher",
     "description": "This is a description of kingfisher",
     "date": "this will be a date",
-    "img": "Presumably this'll be an image",
+    "img": "@/mock/images/portfolio2.jpg",
     "caption": "caption for short description",
     "tags": ["bird", "Watercolour", "kofi"]
   },
   {
+    "id": "3",
     "name": "Hard boiled egg",
     "description": "This is a description of hard boiled egg",
     "date": "this will be a date",
-    "img": "Presumably this'll be an image",
+    "img": "@/mock/images/portfolio3.jpg",
     "caption": "caption for short description",
     "tags": ["Terry Pratchett", "digital art", "commission"]
   }
