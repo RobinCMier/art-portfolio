@@ -18,6 +18,5 @@ export default {
       artworks: artworks,
     };
   },
-  components: { Banner },
 };
 </script>
