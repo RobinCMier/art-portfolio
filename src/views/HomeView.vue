@@ -3,8 +3,8 @@
     <h1>Gallery:</h1>
     <div v-for="artwork in artworks" :key="artwork.id">
       <h1>{{ artwork.name }}</h1>
-      <img :src="artwork.img" />
-      <img src="@/mock/images/portfolio1.jpg" />
+      <!-- <img :src="artwork.img" />
+      <img src="@/mock/images/portfolio1.jpg" /> -->
       <!-- path is not found. artwork name is found so it's sth to do w the img path-->
     </div>
   </main>
