@@ -7,15 +7,17 @@
 </template>
 
 <script>
+// import data and tools
 import artworks from "../mock/artworks.json";
+// import components
 
 export default {
-  name: "Home-view",
-
+  name: "Home-View",
   data() {
     return {
       artworks: artworks,
     };
   },
+  components: { Banner },
 };
 </script>

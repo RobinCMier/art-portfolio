@@ -1,8 +1,5 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
-</script>
-
 <template>
+  <Banner />
   <header>
     <div class="wrapper">
       <nav>
@@ -14,6 +11,10 @@ import { RouterLink, RouterView } from "vue-router";
 
   <RouterView />
 </template>
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+import Banner from "./components/Banner.vue";
+</script>
 
 <style scoped>
 header {
